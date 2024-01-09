@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hormigaFeliz, #hormigaTriste {
+    position: absolute;
+    margin-top: 50%;
+   z-index: 2;
+
+}
+
