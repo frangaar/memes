@@ -33,12 +33,14 @@ document.addEventListener('DOMContentLoaded',function(){
 
     btnIniciar.addEventListener('click',function(){
 
-        gatoOrdenador.remove;
-        chicaMeme.remove;
+        chicaMeme.style.display = 'none';
+        gato.style.display = 'none';
 
         // Añadir chica a container
         container[0].appendChild(chica);
         container[0].appendChild(gatoOrdenador);
+        container[0].appendChild(gato);
+        container[0].appendChild(chicaMeme);
         chica.classList.add('moverChica');  
     })
     
@@ -46,13 +48,13 @@ document.addEventListener('DOMContentLoaded',function(){
     chica.addEventListener("animationend", () => {
         
         chica.setAttribute('src','img/laiaDerechaParada.png');
-        container[0].appendChild(chicaMeme);
+        chicaMeme.style.display = 'block';
         setTimeout(gatoRespuesta, 1200);
     });
 
 
     function gatoRespuesta() {
-        container[0].appendChild(gato);
+        gato.style.display = 'block';
     }
 
 });

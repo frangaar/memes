@@ -25,6 +25,7 @@ body{
     position: absolute;
     top: 515px;
     left: 1010px;
+    display: none;
 }
 
 #gato{
@@ -32,6 +33,7 @@ body{
     position: absolute;
     top: 640px;
     left: 1380px;
+    display: none;
 }
 
 #gatoOrdenador{
