@@ -1,0 +1,7 @@
+#memeContainer {
+  position: relative;
+}
+
+#instuPaper, #clientPaper {
+  position: absolute;
+}
