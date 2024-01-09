@@ -38,7 +38,7 @@ function moverGIF() {
 
 function cambiarImagen () {
     const gif = contenedor.querySelector("img");
-    gif.src = "/img/hasbulla.png";
+    gif.src = "img/hasbulla.png";
     gif.style.width = '300px';
     gif.style.height = '350px';
 }
