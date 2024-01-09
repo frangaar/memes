@@ -41,6 +41,7 @@ document.addEventListener('DOMContentLoaded',function(){
         container[0].appendChild(gatoOrdenador);
         container[0].appendChild(gato);
         container[0].appendChild(chicaMeme);
+       chica.setAttribute('src','img/laiaDerechaCaminando.png');
         chica.classList.add('moverChica');  
     })
     
