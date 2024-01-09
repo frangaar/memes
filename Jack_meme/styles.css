@@ -1,0 +1,78 @@
+#face{
+    position: relative;
+    left: 40%;
+    top: 60px;
+height: 300px;
+width: 300px;
+background-color: bisque;
+border-radius: 50%;
+}
+#eye1{
+    position: absolute;
+    left: 60%;
+    top: 90px;
+}
+
+#eye2{
+    position: absolute;
+    left: 20%;
+    top: 90px;
+}
+#mouth{
+    position: absolute;
+    left: 45%;
+    top: 190px;
+    height: 25px;
+width: 25px;
+background-color: black;
+border-radius: 50%;
+}
+#warning{
+    height: 60px;
+    width: 60px;
+}
+#message{
+    position: relative;
+    display: flex;
+    left: 20%;
+    top: 250px;
+}
+#message h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    float: right;
+}
+#mouse{
+    position: relative;
+    height: 2%;
+    width: 2%;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+}
+#smile{
+    width: 200px;
+	height: 70px;
+	border: 10px solid #222;
+	border-top: 0;
+	background: rgba(0,0,0,0);
+	-moz-border-radius: 0 0 120px 120px / 0 0 90px 90px;
+	-webkit-border-radius: 0 0 120px 120px 0 0 90px 90px;
+	border-radius: 0 0 120px 120px / 0 0 90px 90px;
+	position: absolute;
+	bottom: 50px;
+	left: 38px;
+	box-shadow: 0 2px 0 rgba(255,255,255, 0.8);
+	-webkit-box-shadow: 0 2px 0 rgba(255,255,255, 0.8);
+	-moz-box-shadow: 0 2px 0 rgba(255,255,255, 0.8);
+}
+.eyes{
+height: 50px;
+width: 50px;
+background-color: black;
+border-radius: 50%;
+}
+.button{
+    padding: 12px;
+    border-radius: 25%;
+}
