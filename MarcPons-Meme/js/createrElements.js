@@ -13,16 +13,16 @@ container.appendChild(title)
 // 2.1 Smurfcat.
 let smurfcat = document.createElement('img')
 smurfcat.classList.add('smurfCat')
-smurfcat.src = '../img/smurfcat.png'
+smurfcat.src = '../MarcPons-Meme/img/smurfcat.png'
 smurfcat.style.display = 'none'
 container.appendChild(smurfcat)
 // 2.2 Forest.
-let img = 'url(../img/forest.jpg)'
+let img = 'url(../MarcPons-Meme/img/forest.jpg)'
 container.style.backgroundImage = img
 // 2.3 Botones..
 let button = document.createElement('span')
 button.classList.add('buttons')
-button.style.backgroundImage = 'url(../img/button.png)'
+button.style.backgroundImage = 'url(../MarcPons-Meme/img/button.png)'
 container.appendChild(button)
 
 /** 3. Añadir los eventos.*/
