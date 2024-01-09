@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEME STYLE</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        #contenedor {
+            position: relative;
+            width: 500px;
+            height: 500px;
+            border: 1px solid #ccc;
+            overflow: hidden; 
+         
+        }
+
+        #fondo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .imagen {
+            position: absolute;
+            top: 64%; 
+            left: 100%; 
+            
+            width: 226px;
+            height: 275px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body class="d-flex align-items-center justify-content-center">
+
+<div id="contenedor">
+    <img id="fondo" src="./assets/img/fondo.png" alt="Fondo">
+</div>
+
+<script>
+    var imagenes = [
+        './assets/img/1.png',
+        './assets/img/2.png',
+        './assets/img/3.png',
+        './assets/img/4.png',
+        './assets/img/5.png',
+        './assets/img/6.png',
+        './assets/img/7.png',
+        './assets/img/8.png'
+        
+
+
+
+
+        // Agrega más URLs de imágenes si es necesario
+    ];
+
+    var contenedor = document.getElementById('contenedor');
+    var fondo = document.getElementById('fondo');
+    var index = 0;
+
+    function cambiarImagen() {
+        // Muestra la imagen actual sobre el fondo
+        var imagenActual = document.createElement('img');
+        imagenActual.src = imagenes[index];
+        imagenActual.className = 'imagen';
+        imagenActual.width = 100; // Tamaño de 100x100
+        imagenActual.height = 100;
+        
+        // Ajusta la posición al centro a la derecha
+        imagenActual.style.left = '100%';
+        imagenActual.style.transform = 'translate(-100%, -50%)';
+        
+        contenedor.appendChild(imagenActual);
+
+        // Incrementa el índice para la próxima imagen
+        index = (index + 1) % imagenes.length;
+    }
+
+    // Cambia la imagen cada 6 segundos
+    setInterval(cambiarImagen, 6000);
+
+    // Inicialmente, muestra la primera imagen sobre el fondo
+    cambiarImagen();
+</script>
+
+</body>
+</html>
