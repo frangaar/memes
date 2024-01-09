@@ -1,0 +1,51 @@
+body{
+    background-image: url('../img/restaurante.jpg');
+    background-size: cover;
+}
+
+#iniciar{
+    margin-top: 50px;
+    width: 120px;
+    height: 50px;
+    background-color: #3aab63;
+}
+
+#chica{
+    position: absolute;
+    top: 540px;
+}
+
+#chica.moverChica {
+    animation:moverse 3.5s linear;
+    left: 1020px;
+}
+
+#chicaMeme{
+    width: 200px;
+    position: absolute;
+    top: 515px;
+    left: 1010px;
+}
+
+#gato{
+    width: 170px;
+    position: absolute;
+    top: 640px;
+    left: 1380px;
+}
+
+#gatoOrdenador{
+    width: 250px;
+    position: absolute;
+    top: 635px;
+    left: 1260px;
+}
+
+@keyframes moverse {
+    0% {
+        left: 100px;
+    }
+    100% {
+        left: 1020px;
+    }
+}
