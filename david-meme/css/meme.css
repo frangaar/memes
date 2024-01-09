@@ -1,0 +1,52 @@
+@keyframes example {
+    0% {
+        left: 830px;
+    }
+    100% {
+        left:83px;
+
+    }
+}
+
+#meme{
+    position: absolute;
+    top: 380px;
+}
+
+body{
+    background-image: url(../media/campo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#parado{
+    height: 200px;
+    width: 150px;
+    position: absolute;
+    top: 135px;
+    left: 320px;
+}
+
+#porteria{
+    height: 400px;
+    width: 600px;
+    position: absolute;
+}
+
+#chute{
+    top: 105px;
+    left: 820px;
+    height: 250px;
+    width: 300px;
+    position: absolute;
+}
+
+#pelota{
+    top: 305px;
+    /* left: 83px; */
+    height: 40px;
+    width: 55px;
+    position: absolute;
+}
+    
