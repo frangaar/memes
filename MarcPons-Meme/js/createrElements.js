@@ -4,7 +4,7 @@ var fileWeLive = audioWeLive.getAttribute('src');
 var audio = new Audio(fileWeLive);  
 
 /** 2. Crear y inicializar las variables del DOM.*/
-let container = document.getElementById('container')
+let container2 = document.getElementById('container')
 let title = document.createElement('h1')
 title.classList.add('title')
 title.textContent = 'WE LIVE... WE LOVE... WE LIE...'
