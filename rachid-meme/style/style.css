@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(37, 37, 37);
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+}
+
+.telon{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+
+.corrIzq{
+    height: 100vh;
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+}
+
+.corrDer{
+    height: 100vh;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    z-index: 1;
+}
+
+.form{
+    position: absolute;
+    left: 40%;
+    top: 25%;
+}
+
+.cursor{
+    position: absolute;
+    height: 6%;
+    width: 3%;
+}
+
+.text{
+    position: absolute;
+    height: 6%;
+    left: 47%;
+    color: white;
+    top: 10%;
+}

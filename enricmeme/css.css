@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Color de fondo */
+  }
+  
+  .cuadro {
+    border: 5px solid #8B4513; /* Borde marrón */
+    padding: 200px;
+    position: relative; /* Permite posicionar elementos hijos relativos a este div */
+  }
+  
+  .imagen-fondo {
+
+    position: absolute; /* Posición absoluta para superponer las imágenes */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ajustar al ancho del contenedor */
+    height: 400px; /* Mantener la proporción de aspecto */
+  }
+  
+  .imagen-superpuesta {
+    position: absolute; /* Posición absoluta para superponer las imágenes */
+    margin-left: -500px;
+    margin-top: -442px;
+    width: 1000px; /* Ajustar al ancho del contenedor */
+    height: 1000px; /* Mantener la proporción de aspecto */
+  }
+  .imagen-superpuesta2{
+    position: absolute; /* Posición absoluta para superponer las imágenes */
+    margin-top: -200px;
+    width: 50%; /* Ajustar al ancho del contenedor */
+    height: 400px; /* Mantener la proporción de aspecto */
+  }

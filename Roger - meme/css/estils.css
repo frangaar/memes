@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    background-color: white;
+}
+
+.container-pantalla {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 10px black;
+    max-width: 600px; /* Ajusta el ancho máximo del contenedor según tus necesidades */
+    width: 100%;
+    position: relative;
+}
+
+.container-imagen img {
+    max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
+    height: auto; /* La altura se ajustará automáticamente según el ancho */
+    display: block; /* Elimina el espacio adicional debajo de la imagen */
+    margin: auto; /* Centra la imagen dentro del contenedor */
+    position: relative;
+}
+
