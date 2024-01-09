@@ -1,0 +1,38 @@
+body {
+    background-color: aquamarine;
+}
+
+.container h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+}
+
+.container {
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gif1 {
+    width: 0;
+    height: auto;
+    position: absolute;
+    /* right: 300px;
+    top: -10px; */
+    justify-content: center;
+}
+
+#imagen {
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
