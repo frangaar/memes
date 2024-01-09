@@ -19,7 +19,7 @@ container.appendChild(smurfcat)
 // 2.2 Forest.
 let img = 'url(../img/forest.jpg)'
 container.style.backgroundImage = img
-// 2.3 Botones.
+// 2.3 Botones..
 let button = document.createElement('span')
 button.classList.add('buttons')
 button.style.backgroundImage = 'url(../img/button.png)'
